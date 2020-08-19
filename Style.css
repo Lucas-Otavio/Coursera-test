@@ -1,0 +1,78 @@
+﻿/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin:20px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: cursive;
+}
+
+div {
+    background-color: lightgray;
+    padding: 0px 0px 20px 20px;
+    margin: 0px 0px 10px 10px;
+    width: auto;
+    font-family: cursive;
+    border: 1px solid black;
+}
+
+p {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 70px;
+    height: 30px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: auto;
+    text-align:center
+}
+
+/* Simple Responsive Framework. 
+        .row {
+            
+        }*/
+
+.no1 {
+    background-color: lightcoral;
+    color: black;
+}
+
+.no2 {
+    background-color: maroon;
+    color: white;
+}
+
+.no3 {
+    background-color: moccasin;
+    color: black;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        
+    }
+
+    .col-lg-4 {
+        width: 30.33%;
+    }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 45.9%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
